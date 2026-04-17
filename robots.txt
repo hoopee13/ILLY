@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://illy-community.vercel.app/sitemap.xml

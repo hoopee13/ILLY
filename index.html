@@ -3,10 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ILLY 커뮤니티센터 | I Learn Love Yourself</title>
+
+<!-- ★ SEO 기본 메타 태그 -->
+<title>ILLY 커뮤니티센터 | I Learn Love Yourself - 청년 성장 프로그램</title>
+<meta name="description" content="ILLY 커뮤니티센터 - 나를 배우고 나를 사랑하는 시간. 20~30대 청년을 위한 4주 성장 프로그램. 재능 기부 기반 비영리 평생교육 커뮤니티.">
+<meta name="keywords" content="ILLY, 일리, 커뮤니티센터, 청년 프로그램, 자기계발, 성장, 평생교육, I Learn Love Yourself, 자기사랑, 비영리">
+<meta name="author" content="ILLY 커뮤니티센터">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://illy-community.vercel.app/">
+
+<!-- ★ Google Search Console 인증 (가입 후 content 값을 교체하세요) -->
+<meta name="google-site-verification" content="dwxV1bnPch6MuDudaVdeDFFcl02MxekR4_Y6fPTO56I" />
+
+<!-- ★ Open Graph (카카오톡, 페이스북 공유 시 미리보기) -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="ILLY 커뮤니티센터 | 나를 배우고, 나를 사랑하는 시간">
+<meta property="og:description" content="20~30대 청년을 위한 4주 성장 프로그램. 배움과 성장, 나를 사랑하는 법을 함께 발견하는 커뮤니티.">
+<meta property="og:url" content="https://illy-community.vercel.app/">
+<meta property="og:site_name" content="ILLY 커뮤니티센터">
+<meta property="og:locale" content="ko_KR">
+<!-- <meta property="og:image" content="https://illy-community.vercel.app/og-image.jpg"> -->
+<!-- ↑ 대표 이미지가 있으면 주석 해제 후 경로를 넣으세요 (1200x630px 권장) -->
+
+<!-- ★ Twitter Card (트위터/X 공유 시 미리보기) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ILLY 커뮤니티센터 | I Learn Love Yourself">
+<meta name="twitter:description" content="나만의 한 가지 이치를 찾아가는 청년 커뮤니티센터">
+<!-- <meta name="twitter:image" content="https://illy-community.vercel.app/og-image.jpg"> -->
+
+<!-- ★ 네이버 검색 등록 (네이버 서치어드바이저 가입 후 content 값 교체) -->
+<!-- <meta name="naver-site-verification" content="YOUR_NAVER_VERIFICATION_CODE" /> -->
+
+<!-- ★ 파비콘 (아이콘 파일이 있으면 주석 해제) -->
+<!-- <link rel="icon" type="image/png" href="/favicon.png"> -->
+<!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+<!-- ★ 테마 컬러 (모바일 브라우저 상단바 색상) -->
+<meta name="theme-color" content="#00897B">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<!-- 폰트 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;900&family=Gowun+Batang:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- ★ 구조화된 데이터 (Google 검색 결과에 조직 정보 표시) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "ILLY 커뮤니티센터",
+  "alternateName": "일리 커뮤니티센터",
+  "description": "나를 배우고 나를 사랑하는 시간 - 20~30대 청년을 위한 4주 성장 프로그램",
+  "url": "https://illy-community.vercel.app/",
+  "email": "illy.commu@gmail.com",
+  "foundingDate": "2026",
+  "nonprofitStatus": "Nonprofit",
+  "sameAs": []
+}
+</script>
+
 <style>
 :root {
   --peach:#FF8A65;--peach-light:#FFCCBC;--mint:#4DB6AC;--mint-light:#B2DFDB;
@@ -167,62 +223,36 @@ nav{position:relative;z-index:100;display:flex;align-items:center;justify-conten
 .review-card:nth-child(3) .review-avatar{background:var(--lavender);}
 .review-info .name{font-family:var(--font-body);font-size:.8rem;font-weight:600;}.review-info .role{font-size:.7rem;color:var(--gray);font-weight:300;}
 
-/* ===== APPLY PAGE ===== */
+/* ===== APPLY ===== */
 .apply-page{display:flex;align-items:center;justify-content:center;background:var(--page-bg);padding:48px;}
 .apply-outer{max-width:520px;width:100%;}
 .apply-header{text-align:center;margin-bottom:36px;}
 .apply-header h2{font-family:var(--font-heading);font-size:1.75rem;font-weight:700;margin-bottom:10px;line-height:1.5;}
 .apply-header p{color:var(--gray);font-size:.88rem;line-height:1.7;font-weight:300;}
-
 .apply-form{background:white;border-radius:24px;padding:40px 36px;box-shadow:0 8px 40px rgba(0,0,0,.04);}
 .form-group{margin-bottom:22px;}
 .form-group label{display:block;font-family:var(--font-body);font-size:.78rem;font-weight:600;color:var(--dark);margin-bottom:7px;letter-spacing:.02em;}
 .form-group label .req{color:var(--coral);margin-left:2px;}
-.form-group input{
-  width:100%;padding:13px 16px;border:1.5px solid var(--light-gray);border-radius:12px;
-  font-family:var(--font-body);font-size:.86rem;color:var(--dark);
-  transition:border-color .3s ease,box-shadow .3s ease;
-  background:var(--warm-white);outline:none;font-weight:400;
-}
+.form-group input{width:100%;padding:13px 16px;border:1.5px solid var(--light-gray);border-radius:12px;font-family:var(--font-body);font-size:.86rem;color:var(--dark);transition:border-color .3s ease,box-shadow .3s ease;background:var(--warm-white);outline:none;font-weight:400;}
 .form-group input::placeholder{color:#adb5bd;font-weight:300;}
 .form-group input:focus{border-color:var(--mint);box-shadow:0 0 0 3px rgba(77,182,172,.12);}
 .form-group input.error{border-color:var(--coral);box-shadow:0 0 0 3px rgba(255,112,67,.1);}
 .form-error{font-size:.72rem;color:var(--coral);margin-top:5px;display:none;font-weight:400;}
 .form-group input.error ~ .form-error{display:block;}
-
 .form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
-
 .form-consent{display:flex;align-items:flex-start;gap:10px;margin:24px 0 28px;cursor:pointer;}
-.form-consent input[type="checkbox"]{
-  width:18px;height:18px;margin-top:2px;accent-color:var(--mint-dark);cursor:pointer;flex-shrink:0;
-}
+.form-consent input[type="checkbox"]{width:18px;height:18px;margin-top:2px;accent-color:var(--mint-dark);cursor:pointer;flex-shrink:0;}
 .form-consent span{font-size:.76rem;color:var(--gray);line-height:1.6;font-weight:300;}
-
-.form-submit{
-  width:100%;padding:15px;border:none;border-radius:14px;
-  background:var(--mint-dark);color:#fff;
-  font-family:var(--font-body);font-size:.9rem;font-weight:600;
-  cursor:pointer;transition:all .35s ease;letter-spacing:.02em;
-}
+.form-submit{width:100%;padding:15px;border:none;border-radius:14px;background:var(--mint-dark);color:#fff;font-family:var(--font-body);font-size:.9rem;font-weight:600;cursor:pointer;transition:all .35s ease;letter-spacing:.02em;}
 .form-submit:hover{background:var(--dark);transform:translateY(-1px);box-shadow:0 8px 24px rgba(0,0,0,.1);}
 .form-submit:disabled{background:var(--light-gray);color:var(--gray);cursor:not-allowed;transform:none;box-shadow:none;}
 .form-submit.sending{background:var(--gray);pointer-events:none;}
-
-/* Success state */
 .apply-success{display:none;text-align:center;padding:60px 36px;}
 .apply-success.show{display:block;}
-.apply-success .check{
-  width:72px;height:72px;border-radius:50%;background:rgba(77,182,172,.12);
-  display:flex;align-items:center;justify-content:center;margin:0 auto 24px;
-  font-size:2rem;
-}
+.apply-success .check{width:72px;height:72px;border-radius:50%;background:rgba(77,182,172,.12);display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-size:2rem;}
 .apply-success h3{font-family:var(--font-heading);font-size:1.4rem;font-weight:700;margin-bottom:10px;}
 .apply-success p{color:var(--gray);font-size:.88rem;line-height:1.7;font-weight:300;margin-bottom:28px;}
-.apply-success button{
-  background:none;border:1.5px solid var(--dark);padding:12px 32px;border-radius:50px;
-  font-family:var(--font-body);font-size:.82rem;font-weight:500;color:var(--dark);
-  cursor:pointer;transition:all .3s ease;
-}
+.apply-success button{background:none;border:1.5px solid var(--dark);padding:12px 32px;border-radius:50px;font-family:var(--font-body);font-size:.82rem;font-weight:500;color:var(--dark);cursor:pointer;transition:all .3s ease;}
 .apply-success button:hover{background:var(--dark);color:#fff;}
 
 /* ===== FOOTER ===== */
@@ -380,14 +410,12 @@ nav{position:relative;z-index:100;display:flex;align-items:center;justify-conten
       <h2>프로그램 신청</h2>
       <p>아래 정보를 입력해 주시면 담당자가 확인 후 연락드리겠습니다.</p>
     </div>
-
     <div class="apply-form" id="applyForm">
       <div class="form-group">
         <label>이름 <span class="req">*</span></label>
         <input type="text" id="f_name" placeholder="홍길동" required>
         <div class="form-error">이름을 입력해 주세요.</div>
       </div>
-
       <div class="form-row">
         <div class="form-group">
           <label>연락처 <span class="req">*</span></label>
@@ -400,21 +428,17 @@ nav{position:relative;z-index:100;display:flex;align-items:center;justify-conten
           <div class="form-error">생년월일을 선택해 주세요.</div>
         </div>
       </div>
-
       <div class="form-group">
         <label>이메일 <span class="req">*</span></label>
         <input type="email" id="f_email" placeholder="example@email.com" required>
         <div class="form-error">올바른 이메일을 입력해 주세요.</div>
       </div>
-
       <label class="form-consent">
         <input type="checkbox" id="f_consent">
         <span>개인정보 수집 및 이용에 동의합니다. 수집된 정보는 프로그램 안내 및 연락 목적으로만 사용되며, 목적 달성 후 즉시 파기됩니다.</span>
       </label>
-
       <button class="form-submit" id="submitBtn" onclick="submitForm()">신청하기</button>
     </div>
-
     <div class="apply-success" id="applySuccess">
       <div class="check">✓</div>
       <h3>신청이 완료되었습니다!</h3>
@@ -454,11 +478,11 @@ function go(name){
 }
 document.querySelectorAll('.nav-tab').forEach(t=>t.addEventListener('click',()=>go(t.dataset.page)));
 
-// ===== FORM =====
-// ★★★ EmailJS 설정 가이드 ★★★
-// 1. https://www.emailjs.com 에 가입 (무료 월 200건)
-// 2. Email Services에서 Gmail 등 연결 → Service ID 복사
-// 3. Email Templates에서 템플릿 생성:
+// ===== FORM (EmailJS) =====
+// ★★★ 설정 가이드 ★★★
+// 1. https://www.emailjs.com 가입 (무료 월 200건)
+// 2. Email Services → Gmail 연결 → Service ID 복사
+// 3. Email Templates → 새 템플릿 생성:
 //    제목: [ILLY] 새 프로그램 신청 - {{from_name}}
 //    본문:
 //      이름: {{from_name}}
@@ -466,102 +490,51 @@ document.querySelectorAll('.nav-tab').forEach(t=>t.addEventListener('click',()=>
 //      생년월일: {{birthdate}}
 //      이메일: {{email}}
 //      신청일시: {{submit_date}}
-// 4. 아래 3개 값을 본인 것으로 교체하세요:
+// 4. 아래 3개 값을 본인 것으로 교체:
+const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID';
+const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
 
-const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';   // Account > API Keys
-const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID';   // Email Services
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'; // Email Templates
-
-// EmailJS 초기화
-(function(){
-  if(EMAILJS_PUBLIC_KEY !== 'YOUR_PUBLIC_KEY'){
-    emailjs.init(EMAILJS_PUBLIC_KEY);
-  }
-})();
+(function(){if(EMAILJS_PUBLIC_KEY!=='YOUR_PUBLIC_KEY'){emailjs.init(EMAILJS_PUBLIC_KEY);}})();
 
 function validateForm(){
-  let valid = true;
-  const fields = [
-    {id:'f_name', check: v => v.trim().length > 0},
-    {id:'f_phone', check: v => /^[\d\-\s]{9,}$/.test(v.trim())},
-    {id:'f_birth', check: v => v.length > 0},
-    {id:'f_email', check: v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim())},
-  ];
-  fields.forEach(f => {
-    const input = document.getElementById(f.id);
-    if(!f.check(input.value)){
-      input.classList.add('error');
-      valid = false;
-    } else {
-      input.classList.remove('error');
-    }
+  let valid=true;
+  [{id:'f_name',check:v=>v.trim().length>0},{id:'f_phone',check:v=>/^[\d\-\s]{9,}$/.test(v.trim())},{id:'f_birth',check:v=>v.length>0},{id:'f_email',check:v=>/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim())}].forEach(f=>{
+    const input=document.getElementById(f.id);
+    if(!f.check(input.value)){input.classList.add('error');valid=false;}else{input.classList.remove('error');}
   });
-  if(!document.getElementById('f_consent').checked){
-    valid = false;
-    alert('개인정보 수집 및 이용에 동의해 주세요.');
-  }
+  if(!document.getElementById('f_consent').checked){valid=false;alert('개인정보 수집 및 이용에 동의해 주세요.');}
   return valid;
 }
-
-// 입력 시 에러 해제
-document.querySelectorAll('.apply-form input').forEach(input => {
-  input.addEventListener('input', () => input.classList.remove('error'));
-});
-
-// 전화번호 자동 포맷
-document.getElementById('f_phone').addEventListener('input', function(e){
-  let v = this.value.replace(/[^\d]/g,'');
-  if(v.length > 3 && v.length <= 7) v = v.slice(0,3)+'-'+v.slice(3);
-  else if(v.length > 7) v = v.slice(0,3)+'-'+v.slice(3,7)+'-'+v.slice(7,11);
-  this.value = v;
+document.querySelectorAll('.apply-form input').forEach(input=>{input.addEventListener('input',()=>input.classList.remove('error'));});
+document.getElementById('f_phone').addEventListener('input',function(){
+  let v=this.value.replace(/[^\d]/g,'');
+  if(v.length>3&&v.length<=7)v=v.slice(0,3)+'-'+v.slice(3);
+  else if(v.length>7)v=v.slice(0,3)+'-'+v.slice(3,7)+'-'+v.slice(7,11);
+  this.value=v;
 });
 
 async function submitForm(){
-  if(!validateForm()) return;
-
-  const btn = document.getElementById('submitBtn');
-  btn.textContent = '전송 중...';
-  btn.classList.add('sending');
-
-  const params = {
-    from_name: document.getElementById('f_name').value.trim(),
-    phone: document.getElementById('f_phone').value.trim(),
-    birthdate: document.getElementById('f_birth').value,
-    email: document.getElementById('f_email').value.trim(),
-    submit_date: new Date().toLocaleString('ko-KR'),
-  };
-
-  // EmailJS가 설정되었으면 이메일 전송
-  if(EMAILJS_PUBLIC_KEY !== 'YOUR_PUBLIC_KEY'){
-    try {
-      await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params);
-      showSuccess();
-    } catch(err) {
-      console.error('EmailJS Error:', err);
-      alert('전송 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.');
-      btn.textContent = '신청하기';
-      btn.classList.remove('sending');
-    }
-  } else {
-    // 데모 모드: EmailJS 미설정 시 바로 성공 표시
-    console.log('📩 신청 데이터 (데모):', params);
-    setTimeout(()=> showSuccess(), 800);
-  }
+  if(!validateForm())return;
+  const btn=document.getElementById('submitBtn');
+  btn.textContent='전송 중...';btn.classList.add('sending');
+  const params={from_name:document.getElementById('f_name').value.trim(),phone:document.getElementById('f_phone').value.trim(),birthdate:document.getElementById('f_birth').value,email:document.getElementById('f_email').value.trim(),submit_date:new Date().toLocaleString('ko-KR')};
+  if(EMAILJS_PUBLIC_KEY!=='YOUR_PUBLIC_KEY'){
+    try{await emailjs.send(EMAILJS_SERVICE_ID,EMAILJS_TEMPLATE_ID,params);showSuccess();}
+    catch(err){console.error('EmailJS Error:',err);alert('전송 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.');btn.textContent='신청하기';btn.classList.remove('sending');}
+  }else{console.log('📩 신청 데이터 (데모):',params);setTimeout(()=>showSuccess(),800);}
 }
-
 function showSuccess(){
-  document.getElementById('applyForm').style.display = 'none';
+  document.getElementById('applyForm').style.display='none';
   document.getElementById('applySuccess').classList.add('show');
-  const btn = document.getElementById('submitBtn');
-  btn.textContent = '신청하기';
-  btn.classList.remove('sending');
+  document.getElementById('submitBtn').textContent='신청하기';
+  document.getElementById('submitBtn').classList.remove('sending');
 }
-
 function resetForm(){
-  document.getElementById('applyForm').style.display = 'block';
+  document.getElementById('applyForm').style.display='block';
   document.getElementById('applySuccess').classList.remove('show');
-  document.querySelectorAll('.apply-form input[type="text"],.apply-form input[type="tel"],.apply-form input[type="email"],.apply-form input[type="date"]').forEach(i => {i.value='';i.classList.remove('error');});
-  document.getElementById('f_consent').checked = false;
+  document.querySelectorAll('.apply-form input[type="text"],.apply-form input[type="tel"],.apply-form input[type="email"],.apply-form input[type="date"]').forEach(i=>{i.value='';i.classList.remove('error');});
+  document.getElementById('f_consent').checked=false;
 }
 </script>
 </body>
