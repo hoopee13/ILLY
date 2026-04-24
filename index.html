@@ -77,7 +77,7 @@
 }
 *{margin:0;padding:0;box-sizing:border-box;}
 html,body{height:100%;overflow:hidden;}
-body{font-family:var(--font-body);color:var(--dark);background:var(--warm-white);-webkit-font-smoothing:antialiased;font-weight:400;}
+body{font-family:var(--font-body);color:var(--dark);background:var(--warm-white);-webkit-font-smoothing:antialiased;font-weight:400;word-break:keep-all;}
 
 /* ===== INTRO ===== */
 .intro-splash{position:fixed;top:0;left:0;width:100%;height:100%;background:linear-gradient(135deg,#E0F2F1 0%,#FFF3E0 40%,#F3E5F5 80%,#E1F5FE 100%);display:flex;align-items:center;justify-content:center;z-index:9999;transition:opacity .8s ease,transform .8s ease;}
@@ -346,8 +346,8 @@ nav{position:relative;z-index:100;display:flex;align-items:center;justify-conten
 <div class="page about-page" data-page="about">
   <div class="about-wrap">
     <div class="section-label">ABOUT ILLY</div>
-    <h2>멈추지 않고 배우며<br><span class="em">온전한 나</span>를 사랑하는 법을<br>배우는 공간입니다</h2>
-    <p class="about-desc">ILLY는 재능 기부에 뜻을 같이하는 분들의 후원으로 세워진 비영리 단체입니다. 사람에 대한 이해와 배움을 통해 보다 더 빛나는 내면과 삶을 만들어가기 위한 평생 교육의 현장이자, 청년들이 자신의 가치와 가능성을 발견하고 주체적으로 움직이는 법을 배우는 커뮤니티입니다.</p>
+    <h2 style="word-break:keep-all;overflow-wrap:break-word;">멈추지 않고 배우며<br><span class="em">온전한 나</span>를 사랑하는 법을<br>배우는 공간입니다</h2>
+    <p class="about-desc" style="word-break:keep-all;">ILLY는 재능 기부에 뜻을 같이하는 분들의 후원으로 세워진 비영리 단체입니다. 사람에 대한 이해와 배움을 통해 보다 더 빛나는 내면과 삶을 만들어가기 위한 평생 교육의 현장이자, 청년들이 자신의 가치와 가능성을 발견하고 주체적으로 움직이는 법을 배우는 커뮤니티입니다.</p>
     <div class="about-grid">
       <div class="about-card"><div class="icon">🌱</div><div class="en">I Learn</div><h3>끊임없는 배움</h3><p>멈추지 않고 배우며 성장의 즐거움을 깨닫습니다. 자기 이해를 넓히고 세상을 보는 새로운 시선을 얻어가세요.</p></div>
       <div class="about-card"><div class="icon">💛</div><div class="en">Love Yourself</div><h3>자기 사랑</h3><p>부정적인 생각이나 자기비난에 갇히기보다, 긍정적인 말과 건강한 관계를 통해 내면을 확장하는 방법을 배웁니다.</p></div>
